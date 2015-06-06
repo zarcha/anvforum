@@ -1,0 +1,37 @@
+.jumbotron img
+{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.topic_cat_title
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.topic_cat_title:hover
+{
+    text-decoration: none;   
+}
+
+.topic_last
+{
+    font-size: 10px;
+    color: gray;
+}
+
+.post_user_name{
+    font: 14px;
+    font-weight: bold;
+}
+
+.post_content{
+       
+}
+
+.post_user{
+    border-left: thin solid #999999;
+    height: 100px;
+}
+
