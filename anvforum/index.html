@@ -1,0 +1,15 @@
+<html>
+    <div ng-app="forum" ng-controller="mainController">
+        <head>
+            <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+            <!-- Showing the head file to import anything thats needed for the page -->
+            <div ng-include="'scripts/html/head.html'" ></div>
+        </head>
+            <!-- Import the header file to show the banner and anything on top of the main sections -->
+            <div ng-include="'scripts/html/header.html'"></div>
+            <!-- Show the footer and anythign that includes (also has the side menu) -->
+            <div ng-include="'scripts/html/footer.html'"></div>
+    </div>
+    
+    <script src="scripts/js/main.js"></script>
+</html>
